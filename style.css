@@ -74,5 +74,79 @@ body{
     color: gray;
 }
 .my-recipies{
-    margin: 30px;
+    margin-top: 40px;
+}
+.recipie-div{
+    margin-top: 40px;
+    padding: 40px;
+    height: 700px;
+}
+.recipie{
+    height: 75%;
+    width: 500px;
+    border-radius: 45px;
+    box-shadow: 0px 0px 50px 0px gray;
+    float: left;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0px;
+}
+.recipie img{
+    width: 100%;
+    border-radius: 30px;
+    width: 450px;
+}
+.recipie h1{
+    margin-top: 35px;
+    padding-left: 25px;
+    font-weight: 900;
+    color: #575757;
+    font-size: 40px;
+    text-align: left;
+    width: 92%;
+}
+.recipie p{
+    padding: 25px;
+}
+.social-section{
+    padding: 50px;
+    box-shadow: 0px 0px 30px gray;
+    width: 80%;
+    margin: auto;
+    border-radius: 35px;
+}
+.followers{
+    display: flex;
+    justify-content: space-around;
+    font-size: 35px;
+    font-weight: 700;
+    color: #575757;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: gray;
+}
+footer{
+    background-color: #0B0D17;
+    height: 350px;
+    margin-top: 150px;
+}
+footer h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+    color: white;
+}
+footer p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+    color: gray;
+}
+footer span{
+    color: #FB984C;
 }
